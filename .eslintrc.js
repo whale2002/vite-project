@@ -30,12 +30,9 @@ module.exports = {
         trailingComma: 'none',
         endOfLine: 'auto'
       }
-    ],
-    'no-unused-vars': 'off',
-    'vue/no-unused-vars': 'off',
-    '@typescript-eslint/no-unused-vars': 'off'
+    ]
   },
   globals: {
     defineProps: 'readonly'
   }
-};
+}
